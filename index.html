@@ -11,21 +11,31 @@
     <link rel="stylesheet" href="./css/skeleton.css" />
   </head>
   <body>
-    <label>Choisir un nombre entre 1 et 100 :</label>
-    <form>
-      <input
-        type="number"
-        id="numberUser"
-        name="numberUser"
-        min="0"
-        max="100"
-        required
-      />
-      <button id="btn">Tester</button>
-      <button id="reload">Rejouer</button>
-    </form>
-    <div>
-      <p id="retour"></p>
-    </div>
+    <section class="container">
+      <div class="row">
+        <div class="column">
+          <label>Choisir un nombre entre 1 et 100 :</label>
+          <form>
+            <div class="formulaire">
+              <input
+                type="number"
+                id="numberUser"
+                name="numberUser"
+                min="0"
+                max="100"
+                required
+              />
+            </div>
+            <div class="btn">
+              <button class="button" id="btn">Tester</button>
+              <button class="button" id="reload">Rejouer</button>
+            </div>
+          </form>
+          <div>
+            <p id="retour"></p>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
